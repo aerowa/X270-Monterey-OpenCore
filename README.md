@@ -6,12 +6,12 @@ While Monterey is brand spanking new, that also presents problems for those look
 If you´re new to hackintosh, prefer stability and you´re 100% dependent on the touchpad, I would not recommend upgrading but rather staying on something like Big Sur. There are a lot of good repos for this, including [one with a fully functioning touchpad/buttons (my fork)](https://github.com/aerowa/Lenovo-X270-Hackintosh-OpenCore) or [michaeldigiacomi´s X270](https://github.com/michaeldigiacomi/Lenovo-X270-Hackintosh-OpenCore)
 
 But honestly, that´s probably the biggest downside.
-![About](Images/about.png)
+![About](images/about.png)
 
 # Tested OS
 - [x] macOS Monterey (12.1)
 
-![X270](Images/screen.png)
+![X270](images/screen.png)
 
 # Hardware
 - ThinkPad X270
