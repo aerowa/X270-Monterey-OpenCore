@@ -72,4 +72,4 @@ But honestly, that´s probably the biggest downside.
 
 # Thank you
 - [michaeldigiacomi´s X270](https://github.com/michaeldigiacomi/Lenovo-X270-Hackintosh-OpenCore) (Big Sur EFI - i5 series)
-- [taida2203´s fork for i7-7500U](https://github.com/taida2203/Lenovo-X270-Hackintosh-OpenCore) (Big Sur EFI - i7 compatibility)
+- [taida2203´s fork](https://github.com/taida2203/Lenovo-X270-Hackintosh-OpenCore) (Big Sur EFI - i7 compatibility)
