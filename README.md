@@ -15,10 +15,11 @@ But honestly, that´s probably the biggest downside.
 
 # Hardware
 - ThinkPad X270
-- i7-7500U (HD620)
+- i7-7500U
+- HD 620 iGPU
 - 1TB SSD
 - 16GB DDR4 RAM
-- Standard Intel WiFi NIC (AC8260)
+- Intel AC 8260 (Standard WiFi/BT)
 - Standard 1080p IPS screen
 
 # BIOS
