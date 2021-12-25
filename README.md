@@ -68,7 +68,7 @@ If you're planning to try it, please see the [notes](https://github.com/aerowa/X
 - SD Reader
 - Fingerprint reader
 - Sidecar
-- AirDrop (Might work if you remove Bluetooth functionality)
+- AirDrop (Might work if you remove Bluetooth functionality, otherwise incompatible WNIC)
 - Dock
 
 # Not working
