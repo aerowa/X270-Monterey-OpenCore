@@ -67,7 +67,7 @@ If you're planning to try this EFI, please see the [notes](https://github.com/ae
 - HDMI
 - SD Reader
 - Fingerprint reader
-- Sidecar
+- Sidecar (I would recommend changing WNIC before even trying)
 - AirDrop (Might work if you remove Bluetooth functionality, otherwise incompatible WNIC)
 - Dock
 
