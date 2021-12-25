@@ -68,6 +68,7 @@ But honestly, that's probably the biggest downside.
 
 # Notes
 - WiFi is underperforming, this is pretty standard for all Intel WiFi cards using itlwm
+- If you find WiFi to be unstable, replace Airportitlwm with itlwm + HeliPort
 - To use AppleID services remember to change SMBIOS
 - Bluetooth injector can result in a slow boot (looks like bootloop - but isn't), disable if not used
 
