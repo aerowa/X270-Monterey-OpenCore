@@ -56,7 +56,7 @@ If you're planning to try it, please see the [notes](https://github.com/aerowa/X
 - [x] USB Ports
 - [x] Audio (+ jack)
 - [x] Keyboard (including FN)
-- [x] Touchpad Gestures (see [notes](https://github.com/aerowa/X270-Monterey-OpenCore/blob/main/README.md#notes))
+- [x] Touchpad - Including gestures, trackpoint & physical buttons ~~(see [notes](https://github.com/aerowa/X270-Monterey-OpenCore/blob/main/README.md#notes))~~
 - [x] Shutdown & Restart
 - [x] DRM Support (see [notes](https://github.com/aerowa/X270-Monterey-OpenCore/blob/main/README.md#notes))
 - [x] FileVault
@@ -71,12 +71,12 @@ If you're planning to try it, please see the [notes](https://github.com/aerowa/X
 - Dock
 
 # Not working
-- Physical Touchpad buttons
+- ~~Physical Touchpad buttons~~
 - Sleep/Wake (lid)
 
 # Future/Todo
 - [x] Fix trackpad & physical buttons
-- [ ] Test rest
+- [ ] Tests
 - [ ] AirDrop and Sidebar
 - [ ] Dock integration
 - [ ] Lid sleep
@@ -85,7 +85,7 @@ If you're planning to try it, please see the [notes](https://github.com/aerowa/X
 
 # Notes
 - This is a WIP directory, it's not pretty
-- Touchpad is wonky in Monterey, all gestures work, but they don't work great and might have some small sensitivity issues. This is more so annoying due to the physical buttons not working.
+- ~~Touchpad is wonky in Monterey, all gestures work, but they don't work great and might have some small sensitivity issues. This is more so annoying due to the physical buttons not working.~~
 - WiFi is underperforming, this is pretty standard for all Intel WiFi cards using itlwm, solution is unfortunately to step away from Intel card
 - If you find WiFi to be unstable, replace Airportitlwm with itlwm + HeliPort
 - To use AppleID services remember to change SMBIOS
