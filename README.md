@@ -58,6 +58,7 @@ If you're planning to try it, please see the [notes](https://github.com/aerowa/X
 - [x] Keyboard (including FN)
 - [x] Touchpad - Including gestures, trackpoint & physical buttons ~~(see [notes](https://github.com/aerowa/X270-Monterey-OpenCore/blob/main/README.md#notes))~~
 - [x] Shutdown & Restart
+- [x] Sleep
 - [x] DRM Support (see [notes](https://github.com/aerowa/X270-Monterey-OpenCore/blob/main/README.md#notes))
 - [x] FileVault
 - [x] Xcode
