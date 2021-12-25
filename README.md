@@ -89,13 +89,14 @@ If you're planning to try it, please see the [notes](https://github.com/aerowa/X
 # Notes
 - This is a WIP directory, it's not pretty
 - ~~Touchpad is wonky in Monterey, all gestures work, but they don't work great and might have some small sensitivity issues. This is more so annoying due to the physical buttons not working.~~
-- WiFi is underperforming, this is pretty standard for all Intel WiFi cards using itlwm, solution is unfortunately to step away from Intel card
-- If you find WiFi to be unstable, replace Airportitlwm with itlwm + HeliPort
-- The best solution to Apple Watch, AirDrop, etc. issues is simply to replace it with something like BCM94360NG 
-- To use AppleID services remember to change SMBIOS
-- DRM support on Safari isn't guaranteed, some websites such as Netflix will only accept from other browsers
+- WiFi: is underperforming, this is pretty standard for all Intel WiFi cards using itlwm, solution is unfortunately to step away from Intel card
+- WiFi: If you find WiFi to be unstable, replace Airportitlwm with itlwm + HeliPort
+- WiFi: The best solution to Apple Watch, AirDrop, etc. issues is simply to replace it with something like BCM94360NG 
+- AppleID: To use AppleID services (FaceTime, App store, iMessage etc.) remember to find a new SMBIOS
+- DRM: Support on Safari isn't guaranteed, some websites such as Netflix will only accept from other browsers
 - Bluetooth injector can result in a slow boot (looks like bootloop - but isn't), disable if not used
 - Bluetooth: In the standard setup, Bluetooth injector is disabled due to the above, but will still load some parts ([reason](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/issues/361))
+- Batteries: While both batteries "work", as of now it only detects the percentage of the first one, the latter will show 5% until drained and will not trigger automatic sleep.
 - A lot of resources are used from [michaeldigiacomi's X270](https://github.com/michaeldigiacomi/Lenovo-X270-Hackintosh-OpenCore) and updated to OpenCore 0.7.6, not everything is perfect even if most of the things work
 - Consult with [Lenovo's platform specifications](https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_X270/ThinkPad_X270_Spec.PDF) before testing
 
