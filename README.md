@@ -1,13 +1,13 @@
 # X270-Monterey-OpenCore
-EFI for Monterey OpenCore Hackintosh on the 7th Gen CPU X270
+An OpenCore 0.7.6 EFI that works on macOS Monterey (and previous) on the 7th Gen i7 CPUs for ThinkPad X270.
 
 # Introduction
 While Monterey is brand spanking new, that also presents problems for those looking to upgrade.
-If you're new to hackintosh, prefer stability and/or you're 100% dependent on the touchpad, I would not recommend upgrading but rather staying on something like Big Sur. There are a lot of good repos for this, including [one with a fully functioning touchpad/buttons (my fork)](https://github.com/aerowa/Lenovo-X270-Hackintosh-OpenCore) or [michaeldigiacomi's X270](https://github.com/michaeldigiacomi/Lenovo-X270-Hackintosh-OpenCore)
+If you're new to hackintosh and/or prefer a 100% stable system, I would not recommend upgrading just yet, but rather staying on something like Big Sur and waiting until OpenCore is as stable (and kexts updated) on Monterey. 
+There are a lot of good repos for this, including [michaeldigiacomi's X270](https://github.com/michaeldigiacomi/Lenovo-X270-Hackintosh-OpenCore) or [my fork](https://github.com/aerowa/Lenovo-X270-Hackintosh-OpenCore) of it, which includes a working touchpad.
 
-But honestly, that's probably the biggest downside.
 
-If you're planning to try it, please see the [notes](https://github.com/aerowa/X270-Monterey-OpenCore/blob/main/README.md#notes)
+If you're planning to try this EFI, please see the [notes](https://github.com/aerowa/X270-Monterey-OpenCore/blob/main/README.md#notes)
 
 ![About](images/about.png)
 
