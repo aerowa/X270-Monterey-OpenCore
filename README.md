@@ -94,7 +94,7 @@ If you're planning to try this EFI, please see the [notes](https://github.com/ae
 - WiFi: The best solution to Apple Watch, AirDrop, etc. issues is simply to replace it with something like BCM94360NG 
 - AppleID: To use AppleID services (FaceTime, App store, iMessage etc.) remember to find a new SMBIOS
 - DRM: Support on Safari isn't guaranteed, some websites such as Netflix will only accept from other browsers
-- Bluetooth: injector is ([disabled by default due to Monterey](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/issues/361)). If enabled can result in a slow boot (looks like bootloop - but isn't)
+- Bluetooth: injector is [disabled by default due to Monterey](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/issues/361). If enabled can result in a slow boot (looks like bootloop - but isn't)
 - Batteries: While both batteries "work", as of now it only detects the percentage of the first one, the latter will show 5% until drained and will not trigger automatic sleep.
 - A lot of resources are used from [michaeldigiacomi's X270](https://github.com/michaeldigiacomi/Lenovo-X270-Hackintosh-OpenCore) and updated to OpenCore 0.7.6, not everything is perfect even if most of the things work
 - Consult with [Lenovo's platform specifications](https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_X270/ThinkPad_X270_Spec.PDF) before testing
