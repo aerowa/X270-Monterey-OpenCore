@@ -1,5 +1,5 @@
 # X270-Monterey-OpenCore
-EFI for Monterey OpenCore Hackintosh
+EFI for Monterey OpenCore Hackintosh on the 7th Gen CPU X270
 
 # Introduction
 While Monterey is brand spanking new, that also presents problems for those looking to upgrade.
