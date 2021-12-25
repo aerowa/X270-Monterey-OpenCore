@@ -25,6 +25,7 @@ But honestly, that's probably the biggest downside.
 
 # BIOS
 - Ver. 
+- OpenCore ver. 0.7.6
 ### Settings
 <b>Security</b>
 - `Security Chip` **Disabled**
@@ -77,7 +78,6 @@ But honestly, that's probably the biggest downside.
 - Bluetooth injector can result in a slow boot (looks like bootloop - but isn't), disable if not used
 
 # Other
-- OpenCore ver. 0.7.6
 - [corpnewt - MountEFI & GenSMBIOS](https://github.com/corpnewt)
 - [OpenCore](https://dortania.github.io/OpenCore-Install-Guide/)
 
