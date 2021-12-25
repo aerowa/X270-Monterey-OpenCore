@@ -7,6 +7,8 @@ If you're new to hackintosh, prefer stability and you're 100% dependent on the t
 
 But honestly, that's probably the biggest downside.
 
+If you're planning to try it, please see the [notes](https://github.com/aerowa/X270-Monterey-OpenCore/blob/main/README.md#notes)
+
 ![About](images/about.png)
 
 # Tested OS
@@ -43,7 +45,7 @@ But honestly, that's probably the biggest downside.
 
 # Working
 - [x] WiFi (Airportitlwm)
-- [x] Bluetooth
+- [x] Bluetooth (see [notes](https://github.com/aerowa/X270-Monterey-OpenCore/blob/main/README.md#notes)
 - [x] AppleID Services (FaceTime, iMessage, App Store)
 - [x] Integrated Camera
 - [x] HD 620 Graphics
@@ -53,7 +55,7 @@ But honestly, that's probably the biggest downside.
 - [x] USB Ports
 - [x] Audio (+ jack)
 - [x] Keyboard (including FN)
-- [x] Touchpad Gestures (see notes)
+- [x] Touchpad Gestures (see [notes](https://github.com/aerowa/X270-Monterey-OpenCore/blob/main/README.md#notes))
 - [x] Shutdown & Restart
 - [x] DRM Support
 - [x] FileVault
@@ -79,6 +81,7 @@ But honestly, that's probably the biggest downside.
 - If you find WiFi to be unstable, replace Airportitlwm with itlwm + HeliPort
 - To use AppleID services remember to change SMBIOS
 - Bluetooth injector can result in a slow boot (looks like bootloop - but isn't), disable if not used
+- Bluetooth: In the standard setup, Bluetooth injector is disabled due to the above, but will still load some parts ([reason](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/issues/361)
 - A lot of resources are used from [michaeldigiacomi's X270](https://github.com/michaeldigiacomi/Lenovo-X270-Hackintosh-OpenCore), not everything is perfect even if most of the things work
 - Consult with [Lenovo's platform specifications](https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_X270/ThinkPad_X270_Spec.PDF) before testing
 
