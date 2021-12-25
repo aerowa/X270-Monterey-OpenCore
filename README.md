@@ -67,21 +67,21 @@ If you're planning to try this EFI, please see the [notes](https://github.com/ae
 - HDMI
 - SD Reader
 - Fingerprint reader
-- Sidecar (I would recommend replacing WNIC before even trying - even if it works performance is too bad on Intel)
+- Sidecar (I would recommend replacing WNIC before even trying - even if it works performance is too poor on Intel)
 - AirDrop (Might work if you remove Bluetooth functionality, otherwise incompatible WNIC)
 - Dock
 
 # Not working
 - ~~Physical Touchpad buttons~~
 - Sleep/Wake (lid)
-- Apple Watch unlock (WiFi incompatible)
+- Apple Watch unlock (WNIC incompatible)
 
 # Future/Todo
 - [x] Fix trackpad & physical buttons
 - [ ] Improve fan control
 - [ ] Tests
 - [ ] AirDrop and Sidebar
-- [ ] Dock integration
+- [ ] Dock
 - [ ] Lid sleep
 - [ ] Cleanup
 
