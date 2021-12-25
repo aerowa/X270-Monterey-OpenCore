@@ -80,6 +80,7 @@ But honestly, that's probably the biggest downside.
 - To use AppleID services remember to change SMBIOS
 - Bluetooth injector can result in a slow boot (looks like bootloop - but isn't), disable if not used
 - A lot of resources are used from [michaeldigiacomi's X270](https://github.com/michaeldigiacomi/Lenovo-X270-Hackintosh-OpenCore), not everything is perfect even if most of the things work
+- Consult with [Lenovo's platform specifications](https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_X270/ThinkPad_X270_Spec.PDF) before testing
 
 
 # Other
