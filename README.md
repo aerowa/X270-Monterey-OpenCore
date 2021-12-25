@@ -43,18 +43,18 @@ But honestly, that's probably the biggest downside.
 
 # Working
 - [x] WiFi (Airportitlwm)
-- [x] Integrated Camera
+- [x] Bluetooth
 - [x] AppleID Services (FaceTime, iMessage, App Store)
+- [x] Integrated Camera
 - [x] HD 620 Graphics
 - [x] CPU Power Management
 - [x] Battery Management
 - [x] Sleep & Resume (Not lid)
 - [x] USB Ports
 - [x] Audio (+ jack)
-- [x] Bluetooth
 - [x] Keyboard (including FN)
 - [x] Touchpad Gestures (see notes)
-- [x] Shutdown
+- [x] Shutdown & Restart
 - [x] DRM Support
 - [x] FileVault
 - [x] Xcode
@@ -65,17 +65,22 @@ But honestly, that's probably the biggest downside.
 - Fingerprint reader
 - Sidecar
 - AirDrop
+- Dock
 
 # Not working
 - Physical Touchpad buttons
 - Sleep/Wake (lid)
 
+
 # Notes
+- This is a WIP directory, it's not pretty
 - Touchpad is wonky in Monterey, all gestures work, but they don't work great and might have some small sensitivity issues. This is more so annoying due to the physical buttons not working.
 - WiFi is underperforming, this is pretty standard for all Intel WiFi cards using itlwm, solution is unfortunately to step away from Intel card
 - If you find WiFi to be unstable, replace Airportitlwm with itlwm + HeliPort
 - To use AppleID services remember to change SMBIOS
 - Bluetooth injector can result in a slow boot (looks like bootloop - but isn't), disable if not used
+- A lot of resources are used from [michaeldigiacomi's X270](https://github.com/michaeldigiacomi/Lenovo-X270-Hackintosh-OpenCore), not everything is perfect even if most of the things work
+
 
 # Other
 - [corpnewt - MountEFI & GenSMBIOS](https://github.com/corpnewt)
