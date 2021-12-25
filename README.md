@@ -78,6 +78,7 @@ If you're planning to try it, please see the [notes](https://github.com/aerowa/X
 
 # Future/Todo
 - [x] Fix trackpad & physical buttons
+- [ ] Improve fan control
 - [ ] Tests
 - [ ] AirDrop and Sidebar
 - [ ] Dock integration
