@@ -68,12 +68,13 @@ If you're planning to try it, please see the [notes](https://github.com/aerowa/X
 - SD Reader
 - Fingerprint reader
 - Sidecar
-- AirDrop
+- AirDrop (Might work if you remove Bluetooth functionality)
 - Dock
 
 # Not working
 - ~~Physical Touchpad buttons~~
 - Sleep/Wake (lid)
+- Apple Watch unlock (WiFi incompatible)
 
 # Future/Todo
 - [x] Fix trackpad & physical buttons
@@ -89,6 +90,7 @@ If you're planning to try it, please see the [notes](https://github.com/aerowa/X
 - ~~Touchpad is wonky in Monterey, all gestures work, but they don't work great and might have some small sensitivity issues. This is more so annoying due to the physical buttons not working.~~
 - WiFi is underperforming, this is pretty standard for all Intel WiFi cards using itlwm, solution is unfortunately to step away from Intel card
 - If you find WiFi to be unstable, replace Airportitlwm with itlwm + HeliPort
+- The best solution to Apple Watch, AirDrop, etc. issues is simply to replace it with something like BCM94360NG 
 - To use AppleID services remember to change SMBIOS
 - DRM support on Safari isn't guaranteed, some websites such as Netflix will only accept from other browsers
 - Bluetooth injector can result in a slow boot (looks like bootloop - but isn't), disable if not used
