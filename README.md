@@ -46,6 +46,7 @@ If you're planning to try it, please see the [notes](https://github.com/aerowa/X
 # Working
 - [x] WiFi (Airportitlwm)
 - [x] Bluetooth (see [notes](https://github.com/aerowa/X270-Monterey-OpenCore/blob/main/README.md#notes)
+- [X] Ethernet
 - [x] AppleID Services (FaceTime, iMessage, App Store)
 - [x] Integrated Camera
 - [x] HD 620 Graphics
