@@ -52,7 +52,7 @@ But honestly, that's probably the biggest downside.
 - [x] Audio (+ jack)
 - [x] Bluetooth
 - [x] Keyboard (including FN)
-- [x] Touchpad Gestures
+- [x] Touchpad Gestures (see notes)
 - [x] Shutdown
 - [x] DRM Support
 - [x] FileVault
@@ -70,6 +70,7 @@ But honestly, that's probably the biggest downside.
 - Sleep/Wake (lid)
 
 # Notes
+- Touchpad is wonky in Monterey, all gestures work, but they don't work great and might have some small sensitivity issues. This is more so annoying due to the physical buttons not working.
 - WiFi is underperforming, this is pretty standard for all Intel WiFi cards using itlwm, solution is unfortunately to step away from Intel card
 - If you find WiFi to be unstable, replace Airportitlwm with itlwm + HeliPort
 - To use AppleID services remember to change SMBIOS
