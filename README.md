@@ -55,6 +55,8 @@ But honestly, that's probably the biggest downside.
 - [x] Touchpad Gestures
 - [x] Shutdown
 - [x] DRM Support
+- [x] FileVault
+- [x] Xcode
 
 # Not tested
 - HDMI
