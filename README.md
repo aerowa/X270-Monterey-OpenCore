@@ -75,7 +75,7 @@ If you're planning to try it, please see the [notes](https://github.com/aerowa/X
 - Sleep/Wake (lid)
 
 # Future/Todo
-- [ ] Fix trackpad & physical buttons
+- [x] Fix trackpad & physical buttons
 - [ ] Test rest
 - [ ] AirDrop and Sidebar
 - [ ] Dock integration
