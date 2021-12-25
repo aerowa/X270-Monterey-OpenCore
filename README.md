@@ -67,8 +67,8 @@ If you're planning to try this EFI, please see the [notes](https://github.com/ae
 - HDMI
 - SD Reader
 - Fingerprint reader
-- Sidecar (I would recommend replacing WNIC before even trying - even if it works performance is too poor on Intel)
-- AirDrop (Might work if you remove Bluetooth functionality, otherwise incompatible WNIC)
+- Sidecar (WiFi: I would recommend replacing WNIC before even trying - even if it works performance is too poor on Intel)
+- AirDrop (WiFi: Might work if you remove Bluetooth functionality, otherwise incompatible WNIC)
 - Dock
 
 # Not working
@@ -91,8 +91,9 @@ If you're planning to try this EFI, please see the [notes](https://github.com/ae
 - ~~Touchpad is wonky in Monterey, all gestures work, but they don't work great and might have some small sensitivity issues. This is more so annoying due to the physical buttons not working.~~
 - WiFi: is underperforming, this is pretty standard for all Intel WiFi cards using itlwm, solution is unfortunately to step away from Intel card
 - WiFi: If you find WiFi to be unstable, replace Airportitlwm with itlwm + HeliPort
-- WiFi: The best solution to Apple Watch, AirDrop, etc. issues is simply to replace it with something like BCM94360NG 
+- WiFi: The best solution to Apple Watch, AirDrop, etc. issues is simply to replace it with something like BCM94360NG or BCM94360CS2
 - AppleID: To use AppleID services (FaceTime, App store, iMessage etc.) remember to find a new SMBIOS
+- AirDrop/Sidecar: Should work fine on Ethernet, AirDrop needs a slight workaround though. Sidecar also works via USB.
 - DRM: Support on Safari isn't guaranteed, some websites such as Netflix will only accept from other browsers
 - Bluetooth: Injector is [disabled by default due to Monterey](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/issues/361), but works fine. If enabled can result in a slow boot speed (looks like bootloop - but isn't, I also don't know why you'd do this)
 - Batteries: While both batteries "work", as of now it only detects the percentage of the first one, the latter will show 5% until drained and will not trigger automatic sleep.
