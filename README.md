@@ -74,6 +74,14 @@ If you're planning to try it, please see the [notes](https://github.com/aerowa/X
 - Physical Touchpad buttons
 - Sleep/Wake (lid)
 
+# Future/Todo
+- [ ] Fix trackpad & physical buttons
+- [ ] Test rest
+- [ ] AirDrop and Sidebar
+- [ ] Dock integration
+- [ ] Lid sleep
+- [ ] Cleanup
+
 
 # Notes
 - This is a WIP directory, it's not pretty
