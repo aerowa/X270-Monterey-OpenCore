@@ -3,9 +3,9 @@ EFI for Monterey OpenCore Hackintosh
 
 # Introduction
 While Monterey is brand spanking new, that also presents problems for those looking to upgrade.
-If you´re new to hackintosh, prefer stability and you´re 100% dependent on the touchpad, I would not recommend upgrading but rather staying on something like Big Sur. There are a lot of good repos for this, including [one with a fully functioning touchpad/buttons (my fork)](https://github.com/aerowa/Lenovo-X270-Hackintosh-OpenCore) or [michaeldigiacomi´s X270](https://github.com/michaeldigiacomi/Lenovo-X270-Hackintosh-OpenCore)
+If you're new to hackintosh, prefer stability and you're 100% dependent on the touchpad, I would not recommend upgrading but rather staying on something like Big Sur. There are a lot of good repos for this, including [one with a fully functioning touchpad/buttons (my fork)](https://github.com/aerowa/Lenovo-X270-Hackintosh-OpenCore) or [michaeldigiacomi's X270](https://github.com/michaeldigiacomi/Lenovo-X270-Hackintosh-OpenCore)
 
-But honestly, that´s probably the biggest downside.
+But honestly, that's probably the biggest downside.
 ![About](images/about.png)
 
 # Tested OS
@@ -42,7 +42,7 @@ But honestly, that´s probably the biggest downside.
 # Working
 - [x] WiFi (Airportitlwm)
 - [x] Integrated Camera
-- [x] AppleID (FaceTime, iMessage, App Store)
+- [x] AppleID Services (FaceTime, iMessage, App Store)
 - [x] HD 620 Graphics
 - [x] CPU Power Management
 - [x] Battery Management
@@ -66,11 +66,16 @@ But honestly, that´s probably the biggest downside.
 - Physical Touchpad buttons
 - Sleep/Wake (lid)
 
+# Notes
+- WiFi is underperforming, this is pretty standard for all Intel WiFi cards using itlwm
+- To use AppleID services remember to change SMBIOS
+- Bluetooth injector can result in a slow boot (looks like bootloop - but isn't), disable if not used
+
 # Other
 - OpenCore ver. 0.7.6
 - [corpnewt - MountEFI & GenSMBIOS](https://github.com/corpnewt)
 - [OpenCore](https://dortania.github.io/OpenCore-Install-Guide/)
 
 # Thank you
-- [michaeldigiacomi´s X270](https://github.com/michaeldigiacomi/Lenovo-X270-Hackintosh-OpenCore) (Big Sur EFI - i5 series)
-- [taida2203´s fork](https://github.com/taida2203/Lenovo-X270-Hackintosh-OpenCore) (Big Sur EFI - i7 compatibility)
+- [michaeldigiacomi's X270](https://github.com/michaeldigiacomi/Lenovo-X270-Hackintosh-OpenCore) (Big Sur EFI - i5 series)
+- [taida2203's fork](https://github.com/taida2203/Lenovo-X270-Hackintosh-OpenCore) (Big Sur EFI - i7 compatibility)
