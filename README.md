@@ -81,7 +81,7 @@ If you're planning to try this EFI, please see the [notes](https://github.com/ae
 
 # Future/Todo
 - [x] Fix trackpad & physical buttons
-- [ ] Improve fan control
+- [x] Improve fan control
 - [ ] Improve battery 
 - [ ] Tests
 - [ ] AirDrop and Sidebar
