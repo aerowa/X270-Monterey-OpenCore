@@ -100,7 +100,7 @@ If you're planning to try this EFI, please see the [notes](https://github.com/ae
 - AirDrop/Sidecar: Should work fine on Ethernet, AirDrop needs a slight workaround though. Sidecar also works via USB.
 - Bluetooth: Injector is [disabled by default due to Monterey](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/issues/361), but works fine. If enabled can result in a slow boot speed (looks like bootloop - but isn't, I also don't know why you'd do this)
 - DRM: Support on Safari isn't guaranteed, some websites such as Netflix will only accept from other browsers
-- Sleep: Disable Power Nap and (probably) wake for network access
+- Sleep: Disable Power Nap and wake for network access
 - Batteries: While both batteries "work", but there are two scenarios that unfold. First is it'll go to 5% then the other battery takes over, but will not go to sleep. Second is at 50% it's the other battery.
 - A lot of resources are used from [michaeldigiacomi's X270](https://github.com/michaeldigiacomi/Lenovo-X270-Hackintosh-OpenCore) and updated to OpenCore 0.7.6, not everything is perfect even if most of the things work
 - Consult with [Lenovo's platform specifications](https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_X270/ThinkPad_X270_Spec.PDF) before testing
