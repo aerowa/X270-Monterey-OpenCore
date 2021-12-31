@@ -84,7 +84,7 @@ If you're planning to try this EFI, please see the [notes](https://github.com/ae
 - [x] Improve fan control
 - [ ] Improve battery 
 - [ ] Tests
-- [ ] AirDrop and Sidebar
+- [ ] AirDrop and Sidecar
 - [ ] Dock
 - [ ] Lid sleep
 - [ ] Cleanup
