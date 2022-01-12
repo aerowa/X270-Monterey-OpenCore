@@ -109,7 +109,7 @@ If you're planning to try this EFI, please see the [notes](https://github.com/ae
 
 
 # Other
-- [corpnewt - MountEFI & GenSMBIOS](https://github.com/corpnewt)
+- [corpnewt](https://github.com/corpnewt) - Extremely useful tools
 - [OpenCore](https://dortania.github.io/OpenCore-Install-Guide/)
 
 # Thank you
