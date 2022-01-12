@@ -62,6 +62,8 @@ If you're planning to try this EFI, please see the [notes](https://github.com/ae
 - [x] DRM Support*
 - [x] FileVault
 - [x] Xcode
+- [x] Content Caching
+- [x] NightShift
 ````ruby 
 * see notes
 ````
